@@ -1,0 +1,26 @@
+{
+    "name": "xinix-technology/FormGenerator",
+    "description": "Auto generate html form using json input",
+    "license": "MIT",
+    "keywords": ["form","html","generate"],
+    "authors": [
+        {
+            "name": "Dewa Rajasa Katong",
+            "email": "katongs@gmail.com"
+        },
+
+        {
+            "name": "Januar Siregar",
+            "email": "januar.siregar@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-0": {
+            "FormGenerator": "src/"
+        }
+    }
+}
