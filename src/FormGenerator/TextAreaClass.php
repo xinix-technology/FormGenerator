@@ -18,6 +18,9 @@ class TextAreaClass extends Component{
 			$dataDefault = $default->content;
 		}
 		$result = $this->renderBasic($data,$dataDefault,$template);
+		if(isset($data->value)){
+			$result = str_replace('[value]',$data->value,$result);
+		}
 		$result = $this->renderInput($result);
 		return $result;
 	}
