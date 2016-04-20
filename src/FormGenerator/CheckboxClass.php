@@ -24,7 +24,7 @@ class CheckboxClass extends Component{
 			}
 			$temp = $this->renderBasic($data,'',$template);
 			$temp = $this->renderInput($temp);
-			$temp = $temp.$each->text;
+			$temp = $each->text.$temp;
 			
 
 			if(isset($each->checked)&&$each->checked==true){
